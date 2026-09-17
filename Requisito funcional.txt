@@ -1,0 +1,22 @@
+| Código   | Requisito funcional                                                                                                          |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **RF01** | O sistema deve permitir que o usuário realize **login utilizando e-mail e senha**.                                           |
+| **RF02** | O sistema deve validar o formato do e-mail e exigir o preenchimento de e-mail e senha.                                       |
+| **RF03** | O sistema deve permitir **cadastrar produtos**.                                                                              |
+| **RF04** | O sistema deve armazenar para cada produto: **nome, valor, quantidade em estoque e quantidade mínima**.                      |
+| **RF05** | O sistema deve permitir **listar os produtos cadastrados**.                                                                  |
+| **RF06** | O sistema deve permitir **pesquisar produtos pelo nome**.                                                                    |
+| **RF07** | O sistema deve permitir **editar os dados de um produto**.                                                                   |
+| **RF08** | O sistema deve permitir **excluir produtos**.                                                                                |
+| **RF09** | O sistema deve permitir registrar uma **movimentação de estoque**.                                                           |
+| **RF10** | A movimentação deve ser classificada como **entrada ou saída**.                                                              |
+| **RF11** | O usuário deve informar o **produto, quantidade, tipo e data da movimentação**.                                              |
+| **RF12** | Ao registrar uma **entrada**, o sistema deve aumentar automaticamente a quantidade disponível do produto.                    |
+| **RF13** | Ao registrar uma **saída**, o sistema deve diminuir automaticamente a quantidade disponível do produto.                      |
+| **RF14** | O sistema não deve permitir uma saída cuja quantidade seja **superior ao estoque disponível**.                               |
+| **RF15** | O sistema deve registrar o **histórico das movimentações** realizadas.                                                       |
+| **RF16** | O sistema deve exibir as movimentações ordenadas pela **data da movimentação**, da mais recente para a mais antiga.          |
+| **RF17** | O sistema deve permitir **excluir uma movimentação registrada**.                                                             |
+| **RF18** | O sistema deve identificar o **produto associado a cada movimentação**.                                                      |
+| **RF19** | O sistema deve associar uma movimentação a um **usuário**.                                                                   |
+| **RF20** | O sistema deve emitir um **alerta de estoque baixo** quando a quantidade atual ficar abaixo da quantidade mínima cadastrada. |
